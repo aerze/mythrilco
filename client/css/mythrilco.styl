@@ -1,0 +1,122 @@
+/* colors */
+color-primary = #4392c1;
+color-create = #40b577;
+color-play = #4670c4;
+color-read = #FF4A6F;
+/* color-plus = #E67DAD; */
+color-dark = #343434;
+color-light = white;
+
+/* fonts */
+roboto = 'Roboto', sans-serif;
+oswald = 'Oswald', sans-serif;
+lato = 'Lato', sans-serif;
+shortStack = 'Short Stack', cursive;
+arvo = 'Arvo', serif;
+sanchez = 'Sanchez', serif;
+
+
+/* http://colourco.de/analogic/5/%2342c07d */
+/* http://colourco.de/analogic/5/%234c76c3 */
+
+body
+  font-family: roboto;
+  h2
+    font-family: oswald;
+    font-size: 1.5em;
+
+
+nav
+  color: color-dark;
+
+  &.navbar
+    background: color-light;
+    border: none;
+    border-bottom: 2px solid color-dark;
+    border-radius: 0;
+
+.navbar-default
+  .navbar-nav
+    > li
+      > a:hover
+        color: color-primary;
+
+.container
+  .jumbotron
+    background: color-dark;
+    border-radius: 0px;
+    color: color-light;
+    text-align: center;
+
+    h1
+      font-family: lato;
+      font-weight: 300;
+
+    .create
+      /* font-family: oswald; */
+
+    .play
+      font-size: 1.1em;
+      /* font-family: shortStack */
+
+    .read:
+      /* font-family: sanchez */
+
+
+    hr
+      border-color: color-light;
+
+    .social
+      margin: auto;
+
+      button
+        margin-bottom: 1em;
+        background: color-light;
+        color: color-dark;
+        text-align: center;
+
+        &:hover
+          background: color-primary;
+          color: color-light;
+
+  .about
+    /* border-top: 1px solid color-dark; */
+    background: color-light;
+
+    hr
+      border-color: color-dark;
+
+    h2
+      font-size: 2.5em;
+      /* border-bottom: 1px solid color-dark; */
+
+  .create
+    font-family: oswald;
+    color: color-create;
+    span
+      font-family: lato;
+      font-size: 400;
+      font-style: italic;
+      color: color-dark;
+
+  .play
+    font-family: shortStack;
+    color: color-play;
+    span
+      font-family: lato;
+      font-size: 400;
+      font-style: italic;
+      color: color-dark;
+
+  .read
+    font-family: sanchez;
+    color: color-read;
+    span
+      font-family: lato;
+      font-size: 400;
+      font-style: italic;
+      color: color-dark;
+
+
+  .text-right
+    text-align: right;

@@ -1,0 +1,221 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mythril.co</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Lato:400,700,900|Noto+Serif:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="js/vendor/modernizr.js"></script>
+  </head>
+  <body>
+    
+<div class="off-canvas-wrap" data-offcanvas>
+  <div class="inner-wrap">
+
+    <!-- <a class="left-off-canvas-toggle" href="#" >Menu</a> -->
+
+    <!-- Off Canvas Menu -->
+    <aside class="left-off-canvas-menu">
+        <!-- whatever you want goes here -->
+        <ul>
+          <li><a href="#">Item 1</a></li>
+          <li><a href="#video">Watch Video</a></li>
+          <li><a href="#basicGrid">More Information</a></li>
+          <li><a href="#basicForm">Talk to an Agent</a></li>
+        </ul>
+    </aside>
+
+    <!-- main content goes here -->
+
+
+
+
+
+
+
+    <div class="row">
+      <div class="large-12 columns header">
+        <h1>Mythril</h1>
+        <!-- http://finalfantasy.wikia.com/wiki/Mythril_(Item) -->
+        <p>a strong, easily processed metal. Highly responsive to magic, it forms the basis of magical armaments.</p>
+      </div>
+    </div>
+    
+    <!-- Magellan Navbar -->
+        <div class="magellan" data-magellan-expedition="fixed">
+    <div class="row">
+      <div class="large-12 columns">
+          <dl class="sub-nav">
+              <a href="#" class="left-off-canvas-toggle menu-icon"><span></span></a>
+            <dd data-magellan-arrival="video">
+              <a href="#video">Watch Video</a>
+            </dd>
+            <dd data-magellan-arrival="basicGrid">
+              <a href="#basicGrid">More Information</a>
+            </dd>
+            <dd data-magellan-arrival="basicForm">
+              <a href="#basicForm">Talk to an Agent</a>
+            </dd>
+          </dl>
+      </div>
+    </div>
+        </div>
+
+    <!-- Video Panel -->
+    <div class="row">
+      <div class="large-12 columns">
+        <div  class="panel">
+          <a data-magellan-destination="video" name="video"></a>
+          <h2  >We&rsquo;re thanking Heroes, one home at a time!</h2>
+          <p>Our mission is to provide extraordinary savings to Heroes who provide extraordinary services to you nation ans it's communities everyday.</p>
+          
+          <div class="flex-video">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/bIuLZzcux6w" frameborder="0" allowfullscreen></iframe>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <div class="row">
+      <div class="large-8 medium-8 columns">
+        <h5  data-magellan-destination="basicGrid" >Here&rsquo;s your basic information</h5>
+        <a name="basicGrid"></a>
+        <!-- Grid Example -->
+
+        <div class="row">
+          <div class="large-12 columns">
+            <div class="panel">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+        </div>
+
+        
+        <hr />
+                
+        <h5 data-magellan-destination="basicForm" >Talk to one of our agents</h5>
+        <a name="basicForm"></a>
+        <form data-abide>
+				  <div class="row">
+				    <div class="large-6 columns">
+				      <label>First Name <small> required </small>
+  				      <input type="text" placeholder="GI" required pattern="alpha_numeric" />
+              </label>
+              <small class="error"> First Name is required, no symbols or punctuation. </small>
+				    </div>
+            <div class="large-6 columns">
+              <label>Last Name <small>required</small>
+                <input type="text" placeholder="Joe" required pattern="alpha_numeric" />
+              </label>
+              <small class="error"> Last Name is required, no symbols or punctuation. </small>
+            </div>
+				  </div>
+          <div class="row">
+            <div class="large-12 columns">
+              <label>Address <small> required </small>
+                <input type="text" placeholder="123 Sesame St." />
+              </label>
+              <small class="error"> Address is required.</small>
+            </div>
+          </div>
+				  <div class="row">
+				    <div class="large-4 medium-4 columns">
+				      <label>Phone Number <small> required </small>
+                <input type="tel" placeholder="858-xxx-xxx" requried pattern="^(?:(?:\+?1\s*(?:[.-]\s*)?)?(?:\(\s*([2-9]1[02-9]|[2-9][02-8]1|[2-9][02-8][02-9])\s*\)|([2-9]1[02-9]|[2-9][02-8]1|[2-9][02-8][02-9]))\s*(?:[.-]\s*)?)?([2-9]1[02-9]|[2-9][02-9]1|[2-9][02-9]{2})\s*(?:[.-]\s*)?([0-9]{4})(?:\s*(?:#|x\.?|ext\.?|extension)\s*(\d+))?$"/>
+              </label>
+              <small class="error"> Phone Number is required a 7 or 10 digit number.</small>
+				    </div>
+				    <div class="large-4 medium-4 columns">
+				      <label>Status<small> required </small>
+              <select required>
+                <option value="purchase">Purchase</option>
+                <option value="refinance">Re-Finance</option>
+                <option value="listing">Selling/Listing</option>
+              </select>
+              </label>
+              <small class="error"> Address is required.</small>
+				    </div>
+            <div class="large-4 medium-4 columns">
+              <label>Input Label
+                <input type="email" placeholder="hero@homesforheroes.com" />
+              </label>
+            </div>
+            <!-- <div class="large-4 medium-4 columns">
+              <div class="row collapse">
+                <label>Input Label</label>
+                <div class="small-9 columns">
+                  <input type="text" placeholder="small-9.columns" />
+                </div>
+                <div class="small-3 columns">
+                  <span class="postfix">.com</span>
+                </div>
+              </div>
+            </div> -->
+          <!-- </div>
+          <div class="row"> -->
+				  </div>
+				  <!-- <div class="row">
+				    <div class="large-6 medium-6 columns">
+				      <label>Choose Your Favorite</label>
+				      <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Radio 1</label>
+				      <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Radio 2</label>
+				    </div>
+				    <div class="large-6 medium-6 columns">
+				      <label>Check these out</label>
+				      <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
+				      <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
+				    </div>
+				  </div> -->
+				  <div class="row">
+				    <div class="large-12 columns">
+                <input  class="button round" type="submit" value="Submit"></textarea>
+				    </div>
+				  </div>
+				</form>
+      </div>     
+
+      <div class="large-4 medium-4 columns">
+			  <!-- <h5>Try one of these buttons:</h5>
+			  <p><a href="#" class="small button">Simple Button</a><br/>
+        <a href="#" class="small radius button">Radius Button</a><br/>
+        <a href="#" class="small round button">Round Button</a><br/>            
+        <a href="#" class="medium success button">Success Btn</a><br/>
+        <a href="#" class="medium alert button">Alert Btn</a><br/>
+        <a href="#" class="medium secondary button">Secondary Btn</a></p>            -->
+      	<h5>Sidebar of Information</h5>
+        <div class="panel">
+        	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </div>
+    </div>
+
+      <!-- close the off-canvas menu -->
+  <a class="exit-off-canvas"></a>
+
+  </div>
+</div>
+    
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script src="js/foundation/foundation.magellan.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
