@@ -21,39 +21,40 @@
 
 
       <div class="row">
-        <div class="col-md-12">
-          <nav class="navbar navbar-default" role="navigation">
-<div class="container-fluid">
+        <div class="col-sm-12">
+          <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container-fluid">
 
-            <div class="col-md-12">
-              <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsible-navbar" aria-expanded="false">
-                  <span class="sr-only">Toggle navigation</span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">MythrilCo</a>
-              </div>
+              <div class="col-md-12">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsible-navbar" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="#">MythrilCo</a>
+                </div>
 
-              <div class="collapse navbar-collapse" id="collapsible-navbar">
-              <ul class="nav navbar-nav navbar-right">
-                <li>
-                  <a href="blog.mythril.co">Blog</a>
-                </li>
-                <li>
-                  <a href="http://flyleaf.co">Flyleaf.co</a>
-                </li>
-                <li>
-                  <a href="http://mobile-mayhem-node-dev-aerze.c9.io/">Mobile Mayhem</a>
-                </li>
-              </ul>
+                <div class="collapse navbar-collapse" id="collapsible-navbar">
+                  <ul class="nav navbar-nav navbar-right">
+                    <li>
+                      <a href="#aboutme">About Me</a>
+                    </li>
+                    <li>
+                      <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                      <a href="#projects">Projects</a>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
-</div>
           </nav>
         </div>
       </div>
+
 
 
       <div class="jumbotron">
@@ -100,14 +101,16 @@
 
 
       <div class="row about">
-        <div class="col-xs-12 about-me">
-          <h2> About Me </h2>
+        <div id="aboutme" class="col-xs-12 about-me">
+          <h2 class="section-header"> About Me </h2>
           <hr />
           <div class="row">
-            <div class="col-xs-4 col-sm-2">
-              <img class="img-responsive" src="https://lh3.googleusercontent.com/nwz4P1PgAUysTuOTsCnbBdZD58Ty5EcALlU_RT0Ne5rOXQxEzR40jS-GPLPiL70Xwnw=h310">
+            <div class="col-md-7">
+              <h3 class="create"></h3>
+              <img class="img-responsive" src="img/profileHero_b&w.jpg">
             </div>
-            <div class="col-xs-8 col-sm-10">
+
+            <div class="col-md-5">
               <h3 class="create"><span>Hello, I'm</span> Gus Suarez</h3>
               <p>
                 I'm a JavaScript Enthusiast and Developer, it's simply amazing what you can do with JS these days, from robots to video games, to full-stack solutions. I taught myself to program back in 2013 and haven't stopped since.
@@ -117,88 +120,86 @@
               </p>
             </div>
           </div>
+
         </div>
 
-
-        <div class="col-xs-12 portfolio">
-          <h2 class="play">
-            PLAY <span>Our Games</span>
-            <!-- My Work -->
-          </h2>
+        <div id="portfolio" class="col-xs-12 portfolio">
+          <h2 class="section-header text-right"> Portfolio Work </h2>
           <hr />
+
           <div class="row">
-            <div class="col-xs-4 col-sm-2">
-              <img class="img-responsive" src="https://lh3.googleusercontent.com/nwz4P1PgAUysTuOTsCnbBdZD58Ty5EcALlU_RT0Ne5rOXQxEzR40jS-GPLPiL70Xwnw=h310">
+            <div class="col-xs-12">
+              <a href="http://www.royalblueinc.com" target="_blank">
+                <h3 >RoyalBlueInc.com - <span>Web Design + Code</span></h3>
+              </a>
             </div>
-            <div class="col-xs-8 col-sm-10">
-              <h3>Mobile Mayhem</h3>
+            <div class="col-sm-5">
+              <h3>Design</h3>
               <p>
-                Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.
+                The design here is pretty basic since it's only a single page. This was my first bit of professional web work. The page is responsive and includes a form at the bottom. Not much else to say, I started coding.
+              </p>
+              <h3>Code</h3>
+              <p>
+                This page was built with, PureCSS, Stylus, and jQuery; with Node.js + Express powering the backend. The responsiveness was the most difficult thing to work with, I ended up having to use JS to try to make it more responsive when I probably could have just used Bootstrap to get the same effects. As far as interactivity there's and simple form at the bottom that uses jQuery for validation and error states.
               </p>
             </div>
-            <div class="col-xs-12 col-sm-8">
-              <!--<h3 class="text-right">Beat 'em up</h3>
-              <p>
-                Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.
-              </p>-->
-            </div>
-          </div>
-
-          <div class="col-sm-12">
-            <h2 class="read text-right">
-              <!-- Read <span>Every Page</span> -->
-              About Me
-            </h2>
-            <hr />
-            <div class="row">
-              <div class="col-xs-7 col-sm-10">
-                <h3>Flyleaf.co</h3>
-                <p>
-                  Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.
-                </p>
-              </div>
-              <div class="col-xs-5 col-sm-2">
-                <img class="img-responsive" src="http://mythril.co/screen/Flyleaf_1.PNG">
-              </div>
-            </div>
-            <br />
-            <div class="row">
-              <div class="col-xs-5 col-sm-2">
-                <img class="img-responsive" src="http://mythril.co/screen/mythril_blog.PNG">
-              </div>
-
-              <div class="col-xs-7 col-sm-10">
-                <h3 >Mythril Blog</h3>
-                <p>
-                  Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.
-                </p>
-              </div>
+            <div class="col-sm-7">
+              <h3></h3>
+              <img class="img-responsive" src="img/royalblue_pc.png">
             </div>
           </div>
         </div>
-        <div class="col-sm-12">
-          <h2 class="create">
-            <!-- Create <span>Imaginations</span> -->
-            Other Projects
-          </h2>
+
+
+
+        <div id="projects" class="col-xs-12 projects">
+          <h2 class="section-header"> Personal Projects </h2>
           <hr />
+
           <div class="row">
-            <div class="col-sm-6">
-              <img class="img-responsive" src="http://mythril.co/screen/royalblue.png">
+            <div class="col-sm-12">
+              <a href="http://mobilemayhem.mythril.co" target="_blank">
+                <h3>Mobile Mayhem - <span>Game Design + Code</span></h3>
+              </a>
             </div>
-            <div class="col-sm-6">
-              <h3>Hire Us</h3>
+            <div class="col-sm-7">
+              <h3></h3>
+              <img class="img-responsive" src="img/mobilemayhem.png">
+            </div>
+            <div class="col-sm-5">
+              <h3>Code</h3>
               <p>
-                Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.
+                This is my most recent project in progress. This uses the PhaserJS engine and Ludei's CocoonJS for exporting to android. I rencently tried using Intel's XDK but the overwhelming poor reviews concerning framerate and audio playback issues from other developers has me turning back to PhaserJS. You can follow the link to play the latest demo version on your browser.
               </p>
-              <h3>Learn it yourself</h3>
+              <h3>Design</h3>
               <p>
-                Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.
+                The idea is to make a Mario-Party/Wario-Ware like game while keeping the game play simple. It's also important to not punish the players for ending/leaving games early or joining in halfway through. The player should decide if the have time to play for 5 minutes or 30.
               </p>
+            </div>
+
+            <div class="col-sm-12">
+              <a href="http://flyleaf.co" target="_blank">
+                <h3 class="text-right">Flyleaf.co - <span>Fullstack, Design + Code</span></h3>
+              </a>
+            </div>
+            <div class="col-sm-5">
+              <h3>Design</h3>
+              <p>
+                Though I haven't been recently, I once was an avid reader of manga (Japanese comics). While reading I noticed that several sites still have a very lame UI experience that closer to a gallery than a real reading application. So I set out to improve what I could by making a mobile-friendly manga reading webapp. I used the Materialize library to get the clean android look though it works on iPhones as well.
+              </p>
+              <h3>Code</h3>
+              <p>
+                This project has been particularly fun because I challenged myself to use as few large libraries as possible (no Backbone, no Angular, no React) in an effort to learn more about how things work at the 'vanilla' level. Suffice to say it's been a bit of a pain and I did end up having to use jQuery for animation. Though I was able to create my own 'renderer', akin to my idea of what React is and I used Page.js for routing. I was even able to implement a login system using Firebase and only a bit of server-side Node.js.
+              </p>
+            </div>
+            <div class="col-sm-7">
+              <h3></h3>
+              <img class="img-responsive" src="img/flyleaf.png">
             </div>
           </div>
         </div>
       </div>
+
     </div>
     <hr />
 
@@ -219,7 +220,7 @@
         </div>
       </div>
     </div>
-    </div>
+
 
 </body>
 </html>
